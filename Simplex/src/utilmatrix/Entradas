@@ -1,0 +1,158 @@
+        double[] objCosts =
+        {
+            1, -1, 2
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                1, 1, 1
+            },
+            {
+                2, -1, 3
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.EQUAL,
+            Relation.LESS_THAN
+        };
+        double[] b =
+        {
+            3,
+            4
+        };
+
+
+
+        MAX
+        double[] objCosts =
+        {
+            4, 5
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                4, 7
+            },
+            {
+                6, 3
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.LESS_THAN,
+            Relation.LESS_THAN
+        };
+        double[] b =
+        {
+            336,
+            252
+        };
+
+
+
+        MAX
+        double[] objCosts =
+        {
+            10, 7
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                2, 1
+            },
+            {
+                4, 5
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.LESS_THAN,
+            Relation.LESS_THAN
+        };
+        double[] b =
+        {
+            5000,
+            15000
+        };
+
+
+
+        MAX
+        double[] objCosts =
+        {
+            2, 1
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                1, 1
+            },
+            {
+                1, 1
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.GREATER_THAN,
+            Relation.LESS_THAN
+        };
+        double[] b =
+        {
+            2,
+            4
+        };
+
+
+
+        MIN
+        double[] objCosts =
+        {
+            1, 1, 1
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                -1, 1, 0
+            },
+            {
+                2, -2, -1
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.GREATER_THAN,
+            Relation.EQUAL
+        };
+        double[] b =
+        {
+            1,
+            2
+        };
+
+
+
+        MAX
+        double[] objCosts =
+        {
+            1, 2
+        };
+        double[][] constraintsCoef =
+        {
+            {
+                -4, 1
+            },
+            {
+                2, -3
+            }
+        };
+        Relation[] relations =
+        {
+            Relation.LESS_THAN,
+            Relation.LESS_THAN
+        };
+        double[] b =
+        {
+            4,
+            6
+        };
